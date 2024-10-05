@@ -1,0 +1,76 @@
+body{
+    background-color: #3498dd;
+}
+
+.container{
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: yellowgreen;
+    border: 2px solid #030608;
+    border-radius: 8px;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    margin-top: 0;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: large;
+    font-weight: 600px;
+    margin-bottom: 5px;
+    color: #030608;
+}
+
+
+input[type="number"],
+select{
+    width: 95%;
+    padding: 10px;  
+    border: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;  
+}
+
+input[type="number"],:focus
+select:focus{
+    outline: none;
+    box-shadow: 0 0 5px #3498dd;
+}
+
+select{
+    width: 100%;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4c11a3;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: aqua;
+}
+
+#result{
+    font-weight: bold;
+    margin-top: 20px;
+    color: #3498dd;
+}
